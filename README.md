@@ -2,8 +2,6 @@
 
 ## [Live](https://fatouuuu.github.io/QR-code-component/) | [Solution](https://www.frontendmentor.io/solutions/qr-code-component-09y4wxm7DT)
 
-[Link] (<https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H/hub>) to the QR code component challenge from Frontend Mentor
-
 ## Table of contents
 
 - [Built with](#built-with)
