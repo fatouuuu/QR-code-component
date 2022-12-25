@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    min-height: 100vw;
+    display: grid;
+    grid-template-rows: lfr min-content;
+    grid-template-columns: lfr;
+    /* margin: 7.5px;  */
+    row-gap: 7.5rem;
+    padding: 8.5rem 2.8rem;
+    place-items: center;
+    background:hsl(212, 45%, 89%);
+    padding: 8.5rem 2.8rem;
+}
+
+.card{
+    width: 100%;
+    max-width: 32rem;
+    height: auto;
+    padding: 1.6rem 1.6rem 4rem 1.6rem;
+    background: #ffffff;
+    border-radius: 32px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2.4rem;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0);
+}
+
+#card_img{
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.card_details{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.card_heading{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.card_text{
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: -0.020rem;
+    line-height: 1.6rem;
+    color: #6c7a94;
+    padding-inline: 1.6rem;
+}
+
+.attribution {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* 
+@media (max-width: 768px) {
+   .card_heading{}} */
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.attribution a:hover {
+    color: hsl(268, 22%, 53%);
+}
